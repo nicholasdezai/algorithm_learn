@@ -1,0 +1,2 @@
+*.exe         # 忽略所有以 .exe 结尾的文件
+CMakeLists.txt

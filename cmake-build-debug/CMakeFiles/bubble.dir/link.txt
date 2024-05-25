@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.o -o bubble

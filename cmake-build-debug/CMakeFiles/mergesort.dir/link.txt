@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/mergesort.dir/DataStruct/sort/mergesort.cpp.o -o mergesort

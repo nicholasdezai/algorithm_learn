@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/shellsort.dir/DataStruct/sort/shellsort.cpp.o -o shellsort

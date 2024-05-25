@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/quicksort.dir/DataStruct/sort/quicksort.cpp.o -o quicksort

@@ -53,4 +53,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/shellsort.dir/DependInfo.cmake"
   "CMakeFiles/mergesort.dir/DependInfo.cmake"
   "CMakeFiles/radixsort.dir/DependInfo.cmake"
+  "CMakeFiles/selectsort.dir/DependInfo.cmake"
+  "CMakeFiles/dnasort.dir/DependInfo.cmake"
   )

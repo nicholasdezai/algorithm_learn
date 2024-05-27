@@ -20,7 +20,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -40,7 +42,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -51,6 +55,13 @@
 					"id" : "bubble::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-bubble-Debug-f498f0a578638d61b134.json",
 					"name" : "bubble",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dnasort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dnasort-Debug-1a44411ae58b0147a299.json",
+					"name" : "dnasort",
 					"projectIndex" : 0
 				},
 				{
@@ -79,6 +90,13 @@
 					"id" : "radixsort::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-radixsort-Debug-474e3319496aaa2cd2e9.json",
 					"name" : "radixsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "selectsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-selectsort-Debug-120c78dce4da1b1518d0.json",
+					"name" : "selectsort",
 					"projectIndex" : 0
 				},
 				{

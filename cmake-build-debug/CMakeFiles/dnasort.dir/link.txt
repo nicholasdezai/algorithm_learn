@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/dnasort.dir/DataStruct/sort/dnasort.cpp.o -o dnasort

@@ -194,6 +194,32 @@ radixsort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/radixsort.dir/build.make CMakeFiles/radixsort.dir/build
 .PHONY : radixsort/fast
 
+#=============================================================================
+# Target rules for targets named selectsort
+
+# Build rule for target.
+selectsort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 selectsort
+.PHONY : selectsort
+
+# fast build rule for target.
+selectsort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectsort.dir/build.make CMakeFiles/selectsort.dir/build
+.PHONY : selectsort/fast
+
+#=============================================================================
+# Target rules for targets named dnasort
+
+# Build rule for target.
+dnasort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dnasort
+.PHONY : dnasort
+
+# fast build rule for target.
+dnasort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/build
+.PHONY : dnasort/fast
+
 DataStruct/sort/bubble.o: DataStruct/sort/bubble.cpp.o
 .PHONY : DataStruct/sort/bubble.o
 
@@ -217,6 +243,30 @@ DataStruct/sort/bubble.s: DataStruct/sort/bubble.cpp.s
 DataStruct/sort/bubble.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble.dir/build.make CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.s
 .PHONY : DataStruct/sort/bubble.cpp.s
+
+DataStruct/sort/dnasort.o: DataStruct/sort/dnasort.cpp.o
+.PHONY : DataStruct/sort/dnasort.o
+
+# target to build an object file
+DataStruct/sort/dnasort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/DataStruct/sort/dnasort.cpp.o
+.PHONY : DataStruct/sort/dnasort.cpp.o
+
+DataStruct/sort/dnasort.i: DataStruct/sort/dnasort.cpp.i
+.PHONY : DataStruct/sort/dnasort.i
+
+# target to preprocess a source file
+DataStruct/sort/dnasort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/DataStruct/sort/dnasort.cpp.i
+.PHONY : DataStruct/sort/dnasort.cpp.i
+
+DataStruct/sort/dnasort.s: DataStruct/sort/dnasort.cpp.s
+.PHONY : DataStruct/sort/dnasort.s
+
+# target to generate assembly for a file
+DataStruct/sort/dnasort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/DataStruct/sort/dnasort.cpp.s
+.PHONY : DataStruct/sort/dnasort.cpp.s
 
 DataStruct/sort/insertsort.o: DataStruct/sort/insertsort.cpp.o
 .PHONY : DataStruct/sort/insertsort.o
@@ -314,6 +364,30 @@ DataStruct/sort/radixsort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/radixsort.dir/build.make CMakeFiles/radixsort.dir/DataStruct/sort/radixsort.cpp.s
 .PHONY : DataStruct/sort/radixsort.cpp.s
 
+DataStruct/sort/selectsort.o: DataStruct/sort/selectsort.cpp.o
+.PHONY : DataStruct/sort/selectsort.o
+
+# target to build an object file
+DataStruct/sort/selectsort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectsort.dir/build.make CMakeFiles/selectsort.dir/DataStruct/sort/selectsort.cpp.o
+.PHONY : DataStruct/sort/selectsort.cpp.o
+
+DataStruct/sort/selectsort.i: DataStruct/sort/selectsort.cpp.i
+.PHONY : DataStruct/sort/selectsort.i
+
+# target to preprocess a source file
+DataStruct/sort/selectsort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectsort.dir/build.make CMakeFiles/selectsort.dir/DataStruct/sort/selectsort.cpp.i
+.PHONY : DataStruct/sort/selectsort.cpp.i
+
+DataStruct/sort/selectsort.s: DataStruct/sort/selectsort.cpp.s
+.PHONY : DataStruct/sort/selectsort.s
+
+# target to generate assembly for a file
+DataStruct/sort/selectsort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectsort.dir/build.make CMakeFiles/selectsort.dir/DataStruct/sort/selectsort.cpp.s
+.PHONY : DataStruct/sort/selectsort.cpp.s
+
 DataStruct/sort/shellsort.o: DataStruct/sort/shellsort.cpp.o
 .PHONY : DataStruct/sort/shellsort.o
 
@@ -347,14 +421,19 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bubble"
+	@echo "... dnasort"
 	@echo "... insertsort"
 	@echo "... mergesort"
 	@echo "... quicksort"
 	@echo "... radixsort"
+	@echo "... selectsort"
 	@echo "... shellsort"
 	@echo "... DataStruct/sort/bubble.o"
 	@echo "... DataStruct/sort/bubble.i"
 	@echo "... DataStruct/sort/bubble.s"
+	@echo "... DataStruct/sort/dnasort.o"
+	@echo "... DataStruct/sort/dnasort.i"
+	@echo "... DataStruct/sort/dnasort.s"
 	@echo "... DataStruct/sort/insertsort.o"
 	@echo "... DataStruct/sort/insertsort.i"
 	@echo "... DataStruct/sort/insertsort.s"
@@ -367,6 +446,9 @@ help:
 	@echo "... DataStruct/sort/radixsort.o"
 	@echo "... DataStruct/sort/radixsort.i"
 	@echo "... DataStruct/sort/radixsort.s"
+	@echo "... DataStruct/sort/selectsort.o"
+	@echo "... DataStruct/sort/selectsort.i"
+	@echo "... DataStruct/sort/selectsort.s"
 	@echo "... DataStruct/sort/shellsort.o"
 	@echo "... DataStruct/sort/shellsort.i"
 	@echo "... DataStruct/sort/shellsort.s"

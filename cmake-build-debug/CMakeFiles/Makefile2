@@ -69,6 +69,8 @@ all: CMakeFiles/insertsort.dir/all
 all: CMakeFiles/shellsort.dir/all
 all: CMakeFiles/mergesort.dir/all
 all: CMakeFiles/radixsort.dir/all
+all: CMakeFiles/selectsort.dir/all
+all: CMakeFiles/dnasort.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,8 @@ clean: CMakeFiles/insertsort.dir/clean
 clean: CMakeFiles/shellsort.dir/clean
 clean: CMakeFiles/mergesort.dir/clean
 clean: CMakeFiles/radixsort.dir/clean
+clean: CMakeFiles/selectsort.dir/clean
+clean: CMakeFiles/dnasort.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -91,7 +95,7 @@ clean: CMakeFiles/radixsort.dir/clean
 CMakeFiles/quicksort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quicksort.dir/build.make CMakeFiles/quicksort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quicksort.dir/build.make CMakeFiles/quicksort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target quicksort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target quicksort"
 .PHONY : CMakeFiles/quicksort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -143,7 +147,7 @@ CMakeFiles/bubble.dir/clean:
 CMakeFiles/insertsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/insertsort.dir/build.make CMakeFiles/insertsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/insertsort.dir/build.make CMakeFiles/insertsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target insertsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target insertsort"
 .PHONY : CMakeFiles/insertsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +173,7 @@ CMakeFiles/insertsort.dir/clean:
 CMakeFiles/shellsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shellsort.dir/build.make CMakeFiles/shellsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shellsort.dir/build.make CMakeFiles/shellsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target shellsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target shellsort"
 .PHONY : CMakeFiles/shellsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -195,7 +199,7 @@ CMakeFiles/shellsort.dir/clean:
 CMakeFiles/mergesort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mergesort.dir/build.make CMakeFiles/mergesort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mergesort.dir/build.make CMakeFiles/mergesort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target mergesort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target mergesort"
 .PHONY : CMakeFiles/mergesort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +225,7 @@ CMakeFiles/mergesort.dir/clean:
 CMakeFiles/radixsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/radixsort.dir/build.make CMakeFiles/radixsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/radixsort.dir/build.make CMakeFiles/radixsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target radixsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target radixsort"
 .PHONY : CMakeFiles/radixsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,6 +243,58 @@ radixsort: CMakeFiles/radixsort.dir/rule
 CMakeFiles/radixsort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/radixsort.dir/build.make CMakeFiles/radixsort.dir/clean
 .PHONY : CMakeFiles/radixsort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/selectsort.dir
+
+# All Build rule for target.
+CMakeFiles/selectsort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectsort.dir/build.make CMakeFiles/selectsort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectsort.dir/build.make CMakeFiles/selectsort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target selectsort"
+.PHONY : CMakeFiles/selectsort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/selectsort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/selectsort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/selectsort.dir/rule
+
+# Convenience name for target.
+selectsort: CMakeFiles/selectsort.dir/rule
+.PHONY : selectsort
+
+# clean rule for target.
+CMakeFiles/selectsort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/selectsort.dir/build.make CMakeFiles/selectsort.dir/clean
+.PHONY : CMakeFiles/selectsort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dnasort.dir
+
+# All Build rule for target.
+CMakeFiles/dnasort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target dnasort"
+.PHONY : CMakeFiles/dnasort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dnasort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dnasort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/dnasort.dir/rule
+
+# Convenience name for target.
+dnasort: CMakeFiles/dnasort.dir/rule
+.PHONY : dnasort
+
+# clean rule for target.
+CMakeFiles/dnasort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/clean
+.PHONY : CMakeFiles/dnasort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

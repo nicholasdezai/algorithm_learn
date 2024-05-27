@@ -12,12 +12,12 @@ void Swap(int& a, int& b) {
 
 void Shell(int a[], int n) {
     for (int d = n / 2; d >= 1; d = d / 2) {
-        for (int i=d;i<n;i++) {
-            if (a[i] < a[i-d]) {
+        for (int i = d; i < n; i++) {
+            if (a[i] < a[i - d]) {
                 int temp = a[i];
                 int j;
-                for (j=i;j>0&&temp<a[j-d];j-=d) {
-                    a[j] = a[j-d];
+                for (j = i; j > 0 && temp < a[j - d]; j -= d) {
+                    a[j] = a[j - d];
                 }
                 a[j] = temp;
             }

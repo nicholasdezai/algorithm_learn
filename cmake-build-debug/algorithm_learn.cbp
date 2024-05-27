@@ -281,6 +281,94 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="selectsort">
+				<Option output="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/selectsort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 selectsort"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="selectsort/fast">
+				<Option output="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/selectsort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 selectsort/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dnasort">
+				<Option output="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/dnasort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 dnasort"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dnasort/fast">
+				<Option output="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/dnasort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 dnasort/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug"/>
 				<Option type="4"/>
@@ -305,6 +393,9 @@
 		<Unit filename="/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/bubble.cpp">
 			<Option target="bubble"/>
 		</Unit>
+		<Unit filename="/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/dnasort.cpp">
+			<Option target="dnasort"/>
+		</Unit>
 		<Unit filename="/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/insertsort.cpp">
 			<Option target="insertsort"/>
 		</Unit>
@@ -316,6 +407,9 @@
 		</Unit>
 		<Unit filename="/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/radixsort.cpp">
 			<Option target="radixsort"/>
+		</Unit>
+		<Unit filename="/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/selectsort.cpp">
+			<Option target="selectsort"/>
 		</Unit>
 		<Unit filename="/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/shellsort.cpp">
 			<Option target="shellsort"/>

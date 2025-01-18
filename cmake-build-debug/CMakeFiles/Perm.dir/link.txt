@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Perm.dir/Recursion/Perm.cpp.o -o Perm

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Partition.dir/Recursion/Partition_of_a_set.cpp.o -o Partition

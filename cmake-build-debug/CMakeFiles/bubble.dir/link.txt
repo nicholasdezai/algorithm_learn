@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.o -o bubble
+/usr/bin/c++ -g CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.o CMakeFiles/bubble.dir/Recursion/Partition_of_a_set.cpp.o -o bubble

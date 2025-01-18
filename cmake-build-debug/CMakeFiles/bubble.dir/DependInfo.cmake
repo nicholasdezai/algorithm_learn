@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/bubble.cpp" "CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.o" "gcc" "CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.o.d"
+  "/home/jin/project/cpp_pro/algorithm_learn/Recursion/Partition of a set.cpp" "CMakeFiles/bubble.dir/Recursion/Partition_of_a_set.cpp.o" "gcc" "CMakeFiles/bubble.dir/Recursion/Partition_of_a_set.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

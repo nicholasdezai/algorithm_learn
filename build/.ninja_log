@@ -1,0 +1,16 @@
+# ninja log v6
+2	323	1725204892613437536	CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.o	72b287e6f8cc4d1a
+323	443	1725204892933434554	bubble	e9733d5d08bf2b1a
+2	323	1725204892613437536	CMakeFiles/shellsort.dir/DataStruct/sort/shellsort.cpp.o	61e496f24bcf11ee
+1	338	1725204892610104233	CMakeFiles/quicksort.dir/DataStruct/sort/quicksort.cpp.o	802280afa89a1bd0
+2	342	1725204892613437536	CMakeFiles/insertsort.dir/DataStruct/sort/insertsort.cpp.o	79839c05d7133dd5
+3	349	1725204892613437536	CMakeFiles/selectsort.dir/DataStruct/sort/selectsort.cpp.o	a75788664f0c6d6b
+338	458	1725204892946767763	quicksort	bf0667bcb4cd439b
+324	442	1725204892933434554	mergesort	c9587ebe59eb8c36
+342	467	1725204892953434368	insertsort	fe64f163484d41f3
+3	67	1725204892613437536	CMakeFiles/dnasort.dir/DataStruct/sort/dnasort.cpp.o	321f8b9305e97667
+2	317	1725204892613437536	CMakeFiles/radixsort.dir/DataStruct/sort/radixsort.cpp.o	b2848658f2d75234
+2	324	1725204892613437536	CMakeFiles/mergesort.dir/DataStruct/sort/mergesort.cpp.o	73e15c34f19f34f3
+323	454	1725204892933434554	shellsort	5c9ee15eae601c9d
+349	466	1725204892960100972	selectsort	47ef18b3e5681221
+67	167	1725204892676770279	dnasort	53620b10af8b591

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/insertsort.dir/link.d CMakeFiles/insertsort.dir/DataStruct/sort/insertsort.cpp.o -o insertsort

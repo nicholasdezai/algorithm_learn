@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/quicksort.dir/DataStruct/sort/quicksort.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/quicksort.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/quicksort.cpp",
+  "output": "CMakeFiles/quicksort.dir/DataStruct/sort/quicksort.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Partition.dir/Recursion/Partition_of_a_set.cpp.o -c \"/home/jin/project/cpp_pro/algorithm_learn/Recursion/Partition of a set.cpp\"",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/Recursion/Partition of a set.cpp",
+  "output": "CMakeFiles/Partition.dir/Recursion/Partition_of_a_set.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/insertsort.dir/DataStruct/sort/insertsort.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/insertsort.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/insertsort.cpp",
+  "output": "CMakeFiles/insertsort.dir/DataStruct/sort/insertsort.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/shellsort.dir/DataStruct/sort/shellsort.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/shellsort.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/shellsort.cpp",
+  "output": "CMakeFiles/shellsort.dir/DataStruct/sort/shellsort.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/mergesort.dir/DataStruct/sort/mergesort.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/mergesort.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/mergesort.cpp",
+  "output": "CMakeFiles/mergesort.dir/DataStruct/sort/mergesort.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/radixsort.dir/DataStruct/sort/radixsort.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/radixsort.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/radixsort.cpp",
+  "output": "CMakeFiles/radixsort.dir/DataStruct/sort/radixsort.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/selectsort.dir/DataStruct/sort/selectsort.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/selectsort.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/selectsort.cpp",
+  "output": "CMakeFiles/selectsort.dir/DataStruct/sort/selectsort.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/dnasort.dir/DataStruct/sort/dnasort.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/dnasort.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/DataStruct/sort/dnasort.cpp",
+  "output": "CMakeFiles/dnasort.dir/DataStruct/sort/dnasort.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/Perm.dir/Recursion/Perm.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/Recursion/Perm.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/Recursion/Perm.cpp",
+  "output": "CMakeFiles/Perm.dir/Recursion/Perm.cpp.o"
+},
+{
+  "directory": "/home/jin/project/cpp_pro/algorithm_learn/build",
+  "command": "/usr/bin/g++   -g -std=gnu++14 -o CMakeFiles/hanoi2color.dir/Recursion/hanoi2color.cpp.o -c /home/jin/project/cpp_pro/algorithm_learn/Recursion/hanoi2color.cpp",
+  "file": "/home/jin/project/cpp_pro/algorithm_learn/Recursion/hanoi2color.cpp",
+  "output": "CMakeFiles/hanoi2color.dir/Recursion/hanoi2color.cpp.o"
+}
+]

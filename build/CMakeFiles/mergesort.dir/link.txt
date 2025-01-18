@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/mergesort.dir/link.d CMakeFiles/mergesort.dir/DataStruct/sort/mergesort.cpp.o -o mergesort

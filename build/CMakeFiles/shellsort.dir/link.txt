@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/shellsort.dir/link.d CMakeFiles/shellsort.dir/DataStruct/sort/shellsort.cpp.o -o shellsort

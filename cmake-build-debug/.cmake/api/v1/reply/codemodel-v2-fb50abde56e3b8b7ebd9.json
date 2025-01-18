@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithm_learn",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Partition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Partition-Debug-480da408f7c269341bbc.json",
+					"name" : "Partition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Perm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Perm-Debug-6af222b073e840206248.json",
+					"name" : "Perm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dnasort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dnasort-Debug-6565eeb1daf8b996d66e.json",
+					"name" : "dnasort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hanoi2color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hanoi2color-Debug-fbc7bc344d0d01ca5eb1.json",
+					"name" : "hanoi2color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insertsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insertsort-Debug-3e0d16a5890633286dbf.json",
+					"name" : "insertsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mergesort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mergesort-Debug-4ef449f870383aeb6ef0.json",
+					"name" : "mergesort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quicksort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quicksort-Debug-b0f681b9f8f771ce066d.json",
+					"name" : "quicksort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "radixsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-radixsort-Debug-07fc2e20dc935bcaf536.json",
+					"name" : "radixsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "selectsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-selectsort-Debug-2fbbb136eb2d86ec8030.json",
+					"name" : "selectsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shellsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shellsort-Debug-f85634fff654d8237c67.json",
+					"name" : "shellsort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug",
+		"source" : "/home/jin/project/cpp_pro/algorithm_learn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

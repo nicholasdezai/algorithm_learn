@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/clion/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/clion/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,8 +67,8 @@ CMAKE_BINARY_DIR = /home/jin/project/cpp_pro/algorithm_learn/cmake-build-debug
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
+	/opt/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -130,17 +130,17 @@ quicksort/fast:
 .PHONY : quicksort/fast
 
 #=============================================================================
-# Target rules for targets named bubble
+# Target rules for targets named Partition
 
 # Build rule for target.
-bubble: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bubble
-.PHONY : bubble
+Partition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Partition
+.PHONY : Partition
 
 # fast build rule for target.
-bubble/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble.dir/build.make CMakeFiles/bubble.dir/build
-.PHONY : bubble/fast
+Partition/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Partition.dir/build.make CMakeFiles/Partition.dir/build
+.PHONY : Partition/fast
 
 #=============================================================================
 # Target rules for targets named insertsort
@@ -220,29 +220,31 @@ dnasort/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dnasort.dir/build.make CMakeFiles/dnasort.dir/build
 .PHONY : dnasort/fast
 
-DataStruct/sort/bubble.o: DataStruct/sort/bubble.cpp.o
-.PHONY : DataStruct/sort/bubble.o
+#=============================================================================
+# Target rules for targets named Perm
 
-# target to build an object file
-DataStruct/sort/bubble.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble.dir/build.make CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.o
-.PHONY : DataStruct/sort/bubble.cpp.o
+# Build rule for target.
+Perm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Perm
+.PHONY : Perm
 
-DataStruct/sort/bubble.i: DataStruct/sort/bubble.cpp.i
-.PHONY : DataStruct/sort/bubble.i
+# fast build rule for target.
+Perm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Perm.dir/build.make CMakeFiles/Perm.dir/build
+.PHONY : Perm/fast
 
-# target to preprocess a source file
-DataStruct/sort/bubble.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble.dir/build.make CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.i
-.PHONY : DataStruct/sort/bubble.cpp.i
+#=============================================================================
+# Target rules for targets named hanoi2color
 
-DataStruct/sort/bubble.s: DataStruct/sort/bubble.cpp.s
-.PHONY : DataStruct/sort/bubble.s
+# Build rule for target.
+hanoi2color: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hanoi2color
+.PHONY : hanoi2color
 
-# target to generate assembly for a file
-DataStruct/sort/bubble.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubble.dir/build.make CMakeFiles/bubble.dir/DataStruct/sort/bubble.cpp.s
-.PHONY : DataStruct/sort/bubble.cpp.s
+# fast build rule for target.
+hanoi2color/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hanoi2color.dir/build.make CMakeFiles/hanoi2color.dir/build
+.PHONY : hanoi2color/fast
 
 DataStruct/sort/dnasort.o: DataStruct/sort/dnasort.cpp.o
 .PHONY : DataStruct/sort/dnasort.o
@@ -412,6 +414,78 @@ DataStruct/sort/shellsort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shellsort.dir/build.make CMakeFiles/shellsort.dir/DataStruct/sort/shellsort.cpp.s
 .PHONY : DataStruct/sort/shellsort.cpp.s
 
+Recursion/Partition_of_a_set.o: Recursion/Partition_of_a_set.cpp.o
+.PHONY : Recursion/Partition_of_a_set.o
+
+# target to build an object file
+Recursion/Partition_of_a_set.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Partition.dir/build.make CMakeFiles/Partition.dir/Recursion/Partition_of_a_set.cpp.o
+.PHONY : Recursion/Partition_of_a_set.cpp.o
+
+Recursion/Partition_of_a_set.i: Recursion/Partition_of_a_set.cpp.i
+.PHONY : Recursion/Partition_of_a_set.i
+
+# target to preprocess a source file
+Recursion/Partition_of_a_set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Partition.dir/build.make CMakeFiles/Partition.dir/Recursion/Partition_of_a_set.cpp.i
+.PHONY : Recursion/Partition_of_a_set.cpp.i
+
+Recursion/Partition_of_a_set.s: Recursion/Partition_of_a_set.cpp.s
+.PHONY : Recursion/Partition_of_a_set.s
+
+# target to generate assembly for a file
+Recursion/Partition_of_a_set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Partition.dir/build.make CMakeFiles/Partition.dir/Recursion/Partition_of_a_set.cpp.s
+.PHONY : Recursion/Partition_of_a_set.cpp.s
+
+Recursion/Perm.o: Recursion/Perm.cpp.o
+.PHONY : Recursion/Perm.o
+
+# target to build an object file
+Recursion/Perm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Perm.dir/build.make CMakeFiles/Perm.dir/Recursion/Perm.cpp.o
+.PHONY : Recursion/Perm.cpp.o
+
+Recursion/Perm.i: Recursion/Perm.cpp.i
+.PHONY : Recursion/Perm.i
+
+# target to preprocess a source file
+Recursion/Perm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Perm.dir/build.make CMakeFiles/Perm.dir/Recursion/Perm.cpp.i
+.PHONY : Recursion/Perm.cpp.i
+
+Recursion/Perm.s: Recursion/Perm.cpp.s
+.PHONY : Recursion/Perm.s
+
+# target to generate assembly for a file
+Recursion/Perm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Perm.dir/build.make CMakeFiles/Perm.dir/Recursion/Perm.cpp.s
+.PHONY : Recursion/Perm.cpp.s
+
+Recursion/hanoi2color.o: Recursion/hanoi2color.cpp.o
+.PHONY : Recursion/hanoi2color.o
+
+# target to build an object file
+Recursion/hanoi2color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hanoi2color.dir/build.make CMakeFiles/hanoi2color.dir/Recursion/hanoi2color.cpp.o
+.PHONY : Recursion/hanoi2color.cpp.o
+
+Recursion/hanoi2color.i: Recursion/hanoi2color.cpp.i
+.PHONY : Recursion/hanoi2color.i
+
+# target to preprocess a source file
+Recursion/hanoi2color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hanoi2color.dir/build.make CMakeFiles/hanoi2color.dir/Recursion/hanoi2color.cpp.i
+.PHONY : Recursion/hanoi2color.cpp.i
+
+Recursion/hanoi2color.s: Recursion/hanoi2color.cpp.s
+.PHONY : Recursion/hanoi2color.s
+
+# target to generate assembly for a file
+Recursion/hanoi2color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hanoi2color.dir/build.make CMakeFiles/hanoi2color.dir/Recursion/hanoi2color.cpp.s
+.PHONY : Recursion/hanoi2color.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -420,17 +494,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... bubble"
+	@echo "... Partition"
+	@echo "... Perm"
 	@echo "... dnasort"
+	@echo "... hanoi2color"
 	@echo "... insertsort"
 	@echo "... mergesort"
 	@echo "... quicksort"
 	@echo "... radixsort"
 	@echo "... selectsort"
 	@echo "... shellsort"
-	@echo "... DataStruct/sort/bubble.o"
-	@echo "... DataStruct/sort/bubble.i"
-	@echo "... DataStruct/sort/bubble.s"
 	@echo "... DataStruct/sort/dnasort.o"
 	@echo "... DataStruct/sort/dnasort.i"
 	@echo "... DataStruct/sort/dnasort.s"
@@ -452,6 +525,15 @@ help:
 	@echo "... DataStruct/sort/shellsort.o"
 	@echo "... DataStruct/sort/shellsort.i"
 	@echo "... DataStruct/sort/shellsort.s"
+	@echo "... Recursion/Partition_of_a_set.o"
+	@echo "... Recursion/Partition_of_a_set.i"
+	@echo "... Recursion/Partition_of_a_set.s"
+	@echo "... Recursion/Perm.o"
+	@echo "... Recursion/Perm.i"
+	@echo "... Recursion/Perm.s"
+	@echo "... Recursion/hanoi2color.o"
+	@echo "... Recursion/hanoi2color.i"
+	@echo "... Recursion/hanoi2color.s"
 .PHONY : help
 
 

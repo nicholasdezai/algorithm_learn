@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hanoi2color.dir/Recursion/hanoi2color.cpp.o -o hanoi2color

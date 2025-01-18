@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/hanoi2color.dir/link.d CMakeFiles/hanoi2color.dir/Recursion/hanoi2color.cpp.o -o hanoi2color

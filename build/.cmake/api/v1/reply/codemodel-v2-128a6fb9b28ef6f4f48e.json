@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithm_learn",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Partition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Partition-Debug-42b2cbffb4cf4e88fc68.json",
+					"name" : "Partition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Perm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Perm-Debug-0c72c35f952cf64e3968.json",
+					"name" : "Perm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dnasort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dnasort-Debug-4c4334416284e091eacd.json",
+					"name" : "dnasort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hanoi2color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hanoi2color-Debug-8bbcb89d2384299c71a0.json",
+					"name" : "hanoi2color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insertsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insertsort-Debug-634a1829ba1ddf70b937.json",
+					"name" : "insertsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mergesort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mergesort-Debug-5e6ea382ca8c58c72354.json",
+					"name" : "mergesort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quicksort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quicksort-Debug-d2af45b8402bd916a61c.json",
+					"name" : "quicksort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "radixsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-radixsort-Debug-ce8dd68a1236bf38ef38.json",
+					"name" : "radixsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "selectsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-selectsort-Debug-ea7e653a24604558b4be.json",
+					"name" : "selectsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shellsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shellsort-Debug-cbd6180e0188b0b96670.json",
+					"name" : "shellsort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jin/project/cpp_pro/algorithm_learn/build",
+		"source" : "/home/jin/project/cpp_pro/algorithm_learn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
